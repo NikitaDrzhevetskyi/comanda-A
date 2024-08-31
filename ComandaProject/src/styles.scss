@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  color: theme("colors.main-white");
+}
+.page-width {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  pointer-events: none;
+}
